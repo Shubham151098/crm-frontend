@@ -92,9 +92,14 @@ function CreateUser() {
               onChange={handleChange}
             >
               <option value="ADMIN">Admin</option>
-              <option value="MANAGER">Manager</option>
+              <option value="COORDINATOR">Co Ordinator</option>
+              <option value="HR">HR</option>
+              <option value="SOCIALMEDIAHEAD">Social Media Head</option>
+              <option value="SOCIALMEDIAMANAGER">Social Media Manager</option>
               <option value="GRAPHICDESIGNER">Graphic Designer</option>
               <option value="VIDEOEDITOR">Video Editor</option>
+              <option value="VIDEOEDITOR">Video Grapher</option>
+              <option value="DEVELOPER">Developer</option>
             </select>
           </div>
 

@@ -26,7 +26,7 @@ const Managers = () => {
 
       // ✅ CORRECT FILTER
       const managerList = users.filter(
-        (user) => user.userRole === "MANAGER"
+        (user) => user.userRole === "SOCIALMEDIAMANAGER"
       );
 
       setManagers(managerList);
