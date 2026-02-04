@@ -1,0 +1,18 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f6f9;
+}
+
+/* Sidebar width must be fixed */
+.admin-layout .sidebar {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+/* Main content area */
+.admin-content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
